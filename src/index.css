@@ -5,7 +5,8 @@
 }
 
 body{
-  background-image: url("../public/rick-and-morty.jpg");
+  background-image: url("/rick-and-morty-2.jpg");
   background-size: 100% 100%;
   background-attachment: fixed;
+  font-family: "Lucida Console", monospace;
 }

@@ -18,7 +18,6 @@ const Home = () => {
     
     return (
         <div className={style.home}>
-            <h1>Rick and Morty</h1>
             <h3>Characters</h3>
             <div>
                 <Characters data={characters}/>

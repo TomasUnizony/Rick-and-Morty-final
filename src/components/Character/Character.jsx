@@ -3,7 +3,7 @@ import style from "./Character.module.css";
 const Character = (props) => {
     return (
     <div className={style.container}>
-        {props.image && <img src={props.image} alt={props.name} />}
+        {props.image && <img src={props.image} alt={props.name} className={style.img} />}
         <div className={style.texts}>
             {props.name && <p>{props.name}</p>}
             {props.name && <p>{props.gender}</p>}
